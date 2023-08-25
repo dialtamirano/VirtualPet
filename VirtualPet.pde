@@ -1,6 +1,9 @@
+void setup(){
 size(550,700);
 background(0, 100, 200);
+}
 
+void draw(){
 //frontleg
 noStroke();
 triangle(150, 650, 200, 650, 185, 620);
@@ -60,6 +63,8 @@ triangle(150, 650, 200, 650, 185, 620);
 //eye
 fill(0, 0, 0);
 ellipse(125, 245, 8, 8);
+
+}
 
 
 
